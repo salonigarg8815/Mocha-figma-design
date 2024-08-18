@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.main-btn {
+    width: 195px;
+    height: 46px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    background: #1E3932;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+body {
+    /* font-family: Poppins; */
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #1C352D;
+}
+
+/* * -----------------
+ header-section
+--------------------- */
+
+.navigation-wrap {
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.home .nav-link {
+    color: #177245 !important;
+    border-bottom: 2px solid #177245;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #483C32;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #177245;
+}
+
+.sign-up-btn {
+    width: 124px;
+    height: 46px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #1E3932;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-up-btn:hover {
+    background-color: #1E3932;
+    transition: all 2s;
+    color: #fff;
+}
+
+/* banner-section */
+
+.banner-cont {
+    margin-top: 3.8rem;
+}
+
+.banner-cont p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #0A0B0A;
+    padding: 20px 0px;
+}
+
+.banner-cont span {
+    font-size: 12px;
+    color: #0A0B0A;
+    padding-left: 28px;
+}
+
+/* review-section */
+
+#review {
+    padding: 40px;
+    background-color: #F2F0EB;
+    margin-top: 58px;
+}
+
+#review h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+}
+
+.review-cus {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 20px;
+    margin-top: 32px;
+}
+
+.review-cus p {
+    padding-top: 20px;
+    color: #0A0B0A;
+    font-size: 14px;
+}
+
+.review-cus h6 {
+    color: #717579;
+}
+
+.review-cus h5 {
+    color: #717579;
+}
+
+.review-2 {
+    background-color: #1C352D;
+    border-radius: 24px;
+    color: #fff;
+    padding: 20px;
+}
+
+/* feature-section */
+
+.feature-section h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    padding: 28px 0px;
+}
+
+.feature-section .feature-img img {
+    height: 86%;
+    width: 92%;
+}
+
+.feature-con .head1 h4 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35.84px;
+    color: #1C352D;
+}
+
+.feature-con .head1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1C352D;
+}
+
+/* price-section */
+
+.price-btn {
+    text-align: right;
+    margin-top: 2.8rem;
+}
+
+/* mocha-section */
+
+#mocha {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.mocha-sec h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+.mocha-sec h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35.84px;
+    color: #1C352D;
+    padding: 14px 0px;
+}
+
+.mocha-sec h4 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1C352D;
+}
+
+.mocha {
+    border: 1px solid #CBA560;
+    border-radius: 24px;
+    padding-left: 28px;
+    padding-top: 16px;
+}
+
+/* partner-section */
+
+.part-sec {
+    padding: 60px 0px;
+}
+
+.part-sec h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.part-sec h2 img {
+    padding-left: 30px;
+}
+
+.part-sec p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #131313;
+}
+
+.part-sec p span {
+    color: #006241;
+    border-bottom: 1px solid #006241;
+    font-weight: 500;
+}
+
+/* demo-section */
+#demo {
+    background-color: #EDEBE9;
+    padding: 28px;
+}
+
+.demo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-con {
+    width: 580px;
+    padding: 10px;
+}
+
+.demo-con h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.demo-con p {
+    font-size: 18px;
+    padding: 20px 0px;
+    color: #131313;
+}
+
+.btn-group .main-btn {
+    background-color: #00754A;
+    margin-right: 20px;
+}
+
+.btn-group .sign-up-btn {
+    width: 158px;
+}
+
+/* footer-section */
+#footer {
+    padding: 42px;
+    background-color: #1C352D;
+    color: #FFFFFF;
+}
+
+.foot-logo {
+    width: 400px;
+}
+
+.foot-logo p {
+    padding: 10px 0px;
+}
+
+.foot2 a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.border-bott {
+    border-bottom: 1px solid #E49B0F;
+}
+
+.copt-right p span {
+    color: #E49B0F;
+}
